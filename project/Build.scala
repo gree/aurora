@@ -27,7 +27,6 @@ object AuroraBuild extends Build with Dependencies {
       mockito % "test",
       logbackClassic % "test",
       s2util % "test",
-      scalaReflect,
       slf4jApi,
       grizzledSlf4j,
       scalaDddbaseCore,

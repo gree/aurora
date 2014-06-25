@@ -19,7 +19,6 @@ trait Dependencies {
   val hamcrest = "org.hamcrest" % "hamcrest-all" % "1.3"
   val specs2 = "org.specs2" %% "specs2" % "2.3.12"
   val mockito = "org.mockito" % "mockito-core" % "1.9.5"
-  val scalaReflect = "org.scala-lang" % "scala-reflect" % "2.10.4"
   val s2util = "org.seasar.util" % "s2util" % "0.0.1"
 
   // --- for ddd
