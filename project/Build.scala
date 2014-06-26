@@ -12,7 +12,7 @@ object AuroraBuild extends Build with Dependencies {
   lazy val commonSettings = sonatypeSettings ++ Seq(
     organization := "net.gree.aurora",
     profileName := "net.gree.aurora",
-    version := "0.0.3",
+    version := "0.0.4-SNAPSHOT",
     scalaVersion := "2.10.4",
     crossScalaVersions := Seq("2.11.1", "2.10.4"),
     javacOptions ++= Seq("-source", "1.7", "-encoding", "UTF-8"),
