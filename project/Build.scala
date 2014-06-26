@@ -9,7 +9,7 @@ object AuroraBuild extends Build with Dependencies {
 
   lazy val commonSettings = Seq(
     organization := "net.gree.aurora",
-    version := "0.0.3-SNAPSHOT",
+    version := "0.0.3",
     scalaVersion := "2.10.4",
     crossScalaVersions  := Seq("2.11.1", "2.10.4"),
     javacOptions ++= Seq("-source", "1.7", "-encoding", "UTF-8"),
