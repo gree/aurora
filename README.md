@@ -524,16 +524,22 @@ $ cd aurora
 aurora $ git config -l | grep user # 意図どおりか確認する
 ```
 
-
 ### ビルド手順
 
 ```sh
 aurora $ sbt clean +package
 ```
 
-以下のパスにjarファイルが生成されます。  
-target/scala-2.10/aurora_2.10-x.x.x-SNAPSHOT.jar  
-target/scala-2.11/aurora_2.11-x.x.x-SNAPSHOT.jar  
+target以下のパスにjarファイルが生成されます。
+
+### IntelliJ IDEA
+
+以下の手順を行い、IDEA上でOpen Projectを行う。
+
+```sh
+$ echo 'addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")' >  ~/.sbt/0.13/plugins/build.sbt
+aurora $ sbt clean gen-idea
+```
 
 ### ローカルリポジトリへのデプロイ
 
