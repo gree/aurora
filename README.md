@@ -2,6 +2,8 @@
 
 AuroraはI/OをシャーディングするためのJava/Scala向けライブラリです。
 
+[![Build Status](https://travis-ci.org/gree/aurora.svg?branch=develop)](https://travis-ci.org/gree/aurora)
+
 ## 特徴
 
 - Scala, Javaで利用可能
