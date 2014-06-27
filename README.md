@@ -628,4 +628,7 @@ aurora $ sbt +sonatypeRelease
 Pull Requestをお待ちしております。
 
 
+## 短縮URL
+
+http://git.io/aurora
 
